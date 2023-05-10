@@ -68,7 +68,7 @@
                             <constraint firstItem="2OF-uv-771" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="E5c-1A-DOc"/>
                             <constraint firstItem="BIc-ej-Me4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gpp-i4-qi9"/>
                             <constraint firstItem="wZL-CV-0Yu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Gwf-bv-fKw"/>
-                            <constraint firstItem="Isk-pe-cYU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="H0l-kY-psk"/>
+                            <constraint firstItem="Isk-pe-cYU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="H0l-kY-psk"/>
                             <constraint firstItem="BIc-ej-Me4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OCZ-DN-O6s"/>
                             <constraint firstAttribute="trailing" secondItem="XHj-dg-w1f" secondAttribute="trailing" constant="20" id="Rie-Nm-fze"/>
                             <constraint firstAttribute="bottom" secondItem="2OF-uv-771" secondAttribute="bottom" constant="20" id="Sa5-Kq-zFa"/>
@@ -80,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8" y="-37"/>
+            <point key="canvasLocation" x="7.5" y="-38.028169014084504"/>
         </scene>
         <!--Вопрос №-->
         <scene sceneID="Wss-XJ-B00">
@@ -353,6 +353,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="animalTypeLabel" destination="iu2-iJ-sIq" id="slZ-fG-rOi"/>
+                        <outlet property="descriptionLabel" destination="pX0-kX-Aar" id="SJl-Vb-lsk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4yu-Tg-CTg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

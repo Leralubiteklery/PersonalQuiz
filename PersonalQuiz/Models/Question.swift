@@ -58,6 +58,7 @@ enum ResponseType {
 }
 
 enum AnimalType: Character {
+    
     case dog = "🐶"
     case cat = "🐱"
     case turtle = "🐢"
